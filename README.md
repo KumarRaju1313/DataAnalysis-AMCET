@@ -63,7 +63,7 @@ cd AMCET-EDA
 pip install -r requirements.txt
 
 # Open and run the notebook
-jupyter notebook AMCAT_Analysis.ipynb
+jupyter notebook AMCAT-EDA.ipynb
 ```
 
 ### Required Libraries
