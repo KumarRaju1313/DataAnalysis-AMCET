@@ -56,8 +56,8 @@ Make sure you have Python 3.x installed on your system.
 
 ```bash
 # Clone this repo
-git clone https://github.com/KumarRaju1313/amcat-job-analysis.git
-cd amcat-job-analysis
+git clone https://github.com/KumarRaju1313/AMCET-EDA.git
+cd AMCET-EDA
 
 # Install required packages
 pip install -r requirements.txt
