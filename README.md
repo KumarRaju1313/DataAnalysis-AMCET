@@ -56,7 +56,7 @@ Make sure you have Python 3.x installed on your system.
 
 ```bash
 # Clone this repo
-git clone https://github.com/yourusername/amcat-job-analysis.git
+git clone https://github.com/KumarRaju1313/amcat-job-analysis.git
 cd amcat-job-analysis
 
 # Install required packages
