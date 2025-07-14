@@ -1,25 +1,73 @@
-# AMCAT Job Dataset Analysis 📊
+# 📊 AMCAT Job Dataset Analysis
 
-## Overview ✨
-This project analyzes the AMCAT Job Dataset to explore salary trends, academic performance, and job factors using Python 🐍, Pandas, Seaborn, and Matplotlib.
+A data analysis project exploring the relationship between salaries, academic performance, job locations, experience, and skills using the AMCAT job dataset.
 
-## Dataset 📂
-- **Data:** AMCET Dataset.csv (3,998 entries, 39 columns)  
-- **Key Features:** Salary 💰, Gender 👥, Academic Scores 🎓, Skills 🛠️, Job City 🏙️, Experience ⏳  
-- No missing values or duplicates ✅
+## ✨ Overview
 
-## Goals 🎯
-- Analyze salary distribution 📈  
-- Study impact of GPA, skills, gender, and job city on salaries  
-- Explore correlations between experience and earnings  
+This project dives into the **AMCAT Job Dataset** to uncover patterns in **salary distribution**, **academic achievements**, **job cities**, and **experience levels**. We use **Python**, **Pandas**, and **Seaborn** to draw data-driven insights.
 
-## Key Insights 🔍
-- Salaries are right-skewed 📉  
-- Higher GPA & skills = higher pay 💸  
-- Some specializations & top-tier colleges lead to better salaries 🏫  
-- Cities like Bangalore offer higher pay 🏙️  
-- More experience = higher salaries ⏳  
+## 📂 Dataset
 
-## Tools 🛠️
-- Python, Pandas, NumPy  
-- Seaborn & Matplotlib for visualizations 📊  
+- **Filename:** `AMCET Dataset.csv`
+- **Records:** 3,998 entries
+- **Columns:** 39 attributes
+
+### 🧾 Key Features
+
+- `Salary` 
+- `Gender` 
+- `10/12th/Degree Scores` 
+- `College Tier & Specialization` 
+- `Skills` 
+- `Job City` 
+- `Work Experience` 
+
+✅ **No missing values or duplicate records**
+
+## 🎯 Project Goals
+
+- Analyze **salary distribution** across various dimensions
+- Assess how **GPA**, **skills**, and **gender** affect pay
+- Understand the **impact of job city** on earnings
+- Study correlation between **work experience** and salary
+
+## 🔍 Key Insights
+
+- **Salaries are right-skewed**, with a few high earners
+- **Higher GPA and more skills** generally lead to better pay 💸
+- Candidates from **top-tier colleges and CS/IT specializations** earn more
+- Cities like **Bangalore** offer **higher salary packages**
+- **Work experience** has a strong positive correlation with earnings
+
+## 🛠️ Tools & Technologies
+
+- 🐍 **Python 3.x**
+- 📊 **Pandas, NumPy**
+- 📈 **Seaborn & Matplotlib**
+- 📓 **Jupyter Notebook**
+
+## 📌 How to Run
+
+### Prerequisites
+
+Make sure you have Python 3.x installed on your system.
+
+### Installation
+
+```bash
+# Clone this repo
+git clone https://github.com/yourusername/amcat-job-analysis.git
+cd amcat-job-analysis
+
+# Install required packages
+pip install -r requirements.txt
+
+# Open and run the notebook
+jupyter notebook AMCAT_Analysis.ipynb
+```
+
+### Required Libraries
+
+```bash
+pip install pandas numpy matplotlib seaborn jupyter
+```
