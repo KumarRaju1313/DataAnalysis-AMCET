@@ -56,14 +56,14 @@ Make sure you have Python 3.x installed on your system.
 
 ```bash
 # Clone this repo
-git clone https://github.com/KumarRaju1313/AMCET-EDA.git
-cd AMCET-EDA
+git clone https://github.com/KumarRaju1313/AMCET_EDA.git
+cd AMCET_EDA
 
 # Install required packages
 pip install -r requirements.txt
 
 # Open and run the notebook
-jupyter notebook AMCAT-EDA.ipynb
+jupyter notebook AMCAT_EDA.ipynb
 ```
 
 ### Required Libraries
